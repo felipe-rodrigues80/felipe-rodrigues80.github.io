@@ -386,6 +386,49 @@
         .ig-icon {
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3CradialGradient id='grad' cx='30%25' cy='60%25' r='80%25'%3E%3Cstop offset='0%25' stop-color='%23fdf497'/%3E%3Cstop offset='30%25' stop-color='%23fd5949'/%3E%3Cstop offset='70%25' stop-color='%23d6249f'/%3E%3Cstop offset='100%25' stop-color='%23285AEB'/%3E%3C/radialGradient%3E%3Cpath fill='url(%23grad)' d='M24 8c4.2 0 4.7 0 6.4.1 1.5.1 2.5.3 3.4.6.9.3 1.7.7 2.4 1.4.7.7 1.1 1.5 1.4 2.4.3.9.5 1.9.6 3.4.1 1.7.1 2.2.1 6.4s0 4.7-.1 6.4c-.1 1.5-.3 2.5-.6 3.4-.3.9-.7 1.7-1.4 2.4-.7.7-1.5 1.1-2.4 1.4-.9.3-1.9.5-3.4.6-1.7.1-2.2.1-6.4.1s-4.7 0-6.4-.1c-1.5-.1-2.5-.3-3.4-.6-.9-.3-1.7-.7-2.4-1.4-.7-.7-1.1-1.5-1.4-2.4-.3-.9-.5-1.9-.6-3.4-.1-1.7-.1-2.2-.1-6.4s0-4.7.1-6.4c.1-1.5.3-2.5.6-3.4.3-.9.7-1.7 1.4-2.4.7-.7 1.5-1.1 2.4-1.4.9-.3 1.9-.5 3.4-.6 1.7-.1 2.2-.1 6.4-.1z'/%3E%3Ccircle fill='%23ffffff' cx='24' cy='24' r='7'/%3E%3Cpath fill='%23ffffff' d='M33 13.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z'/%3E%3C/svg%3E");
         }
+
+        /* ============================================ */
+        /* AJUSTES EXCLUSIVOS PARA CELULAR - NAVBAR MAIS COMPACTA */
+        /* ============================================ */
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 0.3rem 0.6rem !important;
+                gap: 0.3rem !important;
+            }
+            
+            .logo-img {
+                height: 35px !important;
+            }
+            
+            .tagline {
+                font-size: 0.55rem !important;
+                padding-left: 0.3rem !important;
+            }
+            
+            .nav-links {
+                gap: 0.2rem !important;
+            }
+            
+            .nav-links a {
+                padding: 0.25rem 0.5rem !important;
+                font-size: 0.65rem !important;
+            }
+            
+            .social-buttons {
+                gap: 0.4rem !important;
+            }
+            
+            .btn-wa, .btn-ig {
+                padding: 0.25rem 0.6rem !important;
+                font-size: 0.65rem !important;
+                max-width: 110px !important;
+            }
+            
+            .wa-icon, .ig-icon {
+                width: 12px !important;
+                height: 12px !important;
+            }
+        }
     </style>
 </head>
 <body>
